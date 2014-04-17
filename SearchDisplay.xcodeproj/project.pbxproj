@@ -21,6 +21,8 @@
 		896F543C19003E92002762D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896F541E19003E92002762D1 /* UIKit.framework */; };
 		896F544419003E92002762D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 896F544219003E92002762D1 /* InfoPlist.strings */; };
 		896F544619003E92002762D1 /* SearchDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 896F544519003E92002762D1 /* SearchDisplayTests.m */; };
+		896F545119004E7A002762D1 /* SearchDisplayObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 896F545019004E7A002762D1 /* SearchDisplayObject.m */; };
+		896F5453190050C0002762D1 /* cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 896F5452190050C0002762D1 /* cell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		896F544119003E92002762D1 /* SearchDisplayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SearchDisplayTests-Info.plist"; sourceTree = "<group>"; };
 		896F544319003E92002762D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		896F544519003E92002762D1 /* SearchDisplayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchDisplayTests.m; sourceTree = "<group>"; };
+		896F544F19004E7A002762D1 /* SearchDisplayObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDisplayObject.h; sourceTree = "<group>"; };
+		896F545019004E7A002762D1 /* SearchDisplayObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDisplayObject.m; sourceTree = "<group>"; };
+		896F5452190050C0002762D1 /* cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,9 @@
 		896F540E19003E92002762D1 = {
 			isa = PBXGroup;
 			children = (
+				896F5452190050C0002762D1 /* cell.xib */,
+				896F544F19004E7A002762D1 /* SearchDisplayObject.h */,
+				896F545019004E7A002762D1 /* SearchDisplayObject.m */,
 				896F542019003E92002762D1 /* SearchDisplay */,
 				896F543F19003E92002762D1 /* SearchDisplayTests */,
 				896F541919003E92002762D1 /* Frameworks */,
@@ -229,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				896F543319003E92002762D1 /* Images.xcassets in Resources */,
+				896F5453190050C0002762D1 /* cell.xib in Resources */,
 				896F542519003E92002762D1 /* InfoPlist.strings in Resources */,
 				896F542E19003E92002762D1 /* Main.storyboard in Resources */,
 			);
@@ -252,6 +261,7 @@
 				896F543119003E92002762D1 /* ViewController.m in Sources */,
 				896F542B19003E92002762D1 /* AppDelegate.m in Sources */,
 				896F542719003E92002762D1 /* main.m in Sources */,
+				896F545119004E7A002762D1 /* SearchDisplayObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
